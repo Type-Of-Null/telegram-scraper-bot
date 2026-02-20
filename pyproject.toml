@@ -1,0 +1,12 @@
+[project]
+name = "telegram-scraper-bot"
+version = "0.1.0"
+description = "Новостной бот без рекламы"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiogram>=3.25.0",
+    "python-dotenv>=1.2.1",
+    "selenium>=4.41.0",
+    "webdriver-manager>=4.0.2",
+]
